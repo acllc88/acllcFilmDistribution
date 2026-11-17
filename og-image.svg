@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f5f5f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="8" fill="#c8102e"/>
+  <rect x="60" y="60" width="86" height="86" rx="18" fill="#0a0a0a"/>
+  <g transform="translate(79,79)" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="6" y="6" width="36" height="36" rx="4"/>
+    <line x1="15" y1="6" x2="15" y2="42"/>
+    <line x1="33" y1="6" x2="33" y2="42"/>
+    <line x1="6" y1="24" x2="42" y2="24"/>
+    <line x1="6" y1="15" x2="15" y2="15"/>
+    <line x1="6" y1="33" x2="15" y2="33"/>
+    <line x1="33" y1="33" x2="42" y2="33"/>
+    <line x1="33" y1="15" x2="42" y2="15"/>
+  </g>
+  <text x="168" y="112" font-family="Manrope, Arial, sans-serif" font-size="34" font-weight="700" fill="#0a0a0a">AC LLC</text>
+  <text x="168" y="145" font-family="Manrope, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3" fill="#6b6b6b">FILM &amp; SERIES DISTRIBUTION</text>
+
+  <text x="60" y="290" font-family="Manrope, Arial, sans-serif" font-size="72" font-weight="700" fill="#0a0a0a">Get your film on</text>
+  <text x="60" y="372" font-family="Manrope, Arial, sans-serif" font-size="72" font-weight="700" fill="#c8102e">Tubi, Prime Video &amp; Hulu</text>
+  <text x="60" y="450" font-family="Manrope, Arial, sans-serif" font-size="30" font-weight="500" fill="#2a2a2a">US-focused distribution for independent filmmakers and series creators.</text>
+  <text x="60" y="492" font-family="Manrope, Arial, sans-serif" font-size="24" font-weight="500" fill="#6b6b6b">Licensing • Deliverables • Metadata • Royalties • You keep the rights</text>
+
+  <g font-family="Manrope, Arial, sans-serif" font-size="20" font-weight="600">
+    <rect x="60" y="535" width="170" height="44" rx="8" fill="#ffffff" stroke="#e5e5e5"/>
+    <text x="145" y="564" text-anchor="middle" fill="#0a0a0a">500+ Titles</text>
+    <rect x="245" y="535" width="190" height="44" rx="8" fill="#ffffff" stroke="#e5e5e5"/>
+    <text x="340" y="564" text-anchor="middle" fill="#0a0a0a">50+ Platforms</text>
+    <rect x="450" y="535" width="180" height="44" rx="8" fill="#ffffff" stroke="#e5e5e5"/>
+    <text x="540" y="564" text-anchor="middle" fill="#0a0a0a">48h Review</text>
+    <rect x="645" y="535" width="240" height="44" rx="8" fill="#0a0a0a"/>
+    <text x="765" y="564" text-anchor="middle" fill="#ffffff">Stripe &amp; PayPal</text>
+  </g>
+  <text x="1140" y="592" text-anchor="end" font-family="Manrope, Arial, sans-serif" font-size="18" font-weight="500" fill="#6b6b6b">acllc.com</text>
+</svg>

@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<!-- Redesign: white paper, black ink, red cue-mark. World: the cutting room / contact sheet. -->
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AC LLC | US Film &amp; Series Distribution — Tubi, Prime Video, Hulu</title>
+<meta name="description" content="AC LLC helps US independent filmmakers and series creators get distributed on Tubi, Prime Video, Hulu, Apple TV, YouTube, Pluto TV and 50+ platforms. End-to-end licensing, deliverables, metadata, and royalty reporting — you keep the rights." />
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+<meta name="author" content="AC LLC" />
+<meta name="theme-color" content="#0a0a0a" />
+<link rel="canonical" href="https://acllc.com/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AC LLC" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="AC LLC | US Film &amp; Series Distribution" />
+<meta property="og:description" content="Get your film or series on Tubi, Prime Video, Hulu, Apple TV and 50+ US platforms. End-to-end distribution, deliverables, metadata, and royalty reporting." />
+<meta property="og:url" content="https://acllc.com/" />
+<meta property="og:image" content="https://acllc.com/og-image.svg" />
+<meta property="og:image:type" content="image/svg+xml" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="AC LLC — US film and series distribution for Tubi, Prime Video, Hulu and 50+ platforms" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="AC LLC | US Film &amp; Series Distribution" />
+<meta name="twitter:description" content="US-focused distribution for independent films and series — Tubi, Prime Video, Hulu, Apple TV and 50+ platforms. You keep the rights." />
+<meta name="twitter:image" content="https://acllc.com/og-image.svg" />
+<meta name="twitter:image:alt" content="AC LLC — US film and series distribution" />
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ffffff;
+  --bg-2:#f5f5f5;
+  --ink:#0a0a0a;
+  --body:#2a2a2a;
+  --muted:#6b6b6b;
+  --line:#e5e5e5;
+  --line-strong:#c8c8c8;
+  --red:#c8102e;
+  --red-deep:#a30015;
+  --red-soft:#fde8ea;
+  --good:#1f7a4a;
+  --good-soft:#e6f5ec;
+  --shadow:0 1px 2px rgba(10,10,10,.06),0 8px 28px rgba(10,10,10,.09);
+  --shadow-lg:0 2px 4px rgba(10,10,10,.08),0 18px 50px rgba(10,10,10,.16);
+  --radius-s:8px;
+  --radius-m:12px;
+  --radius-l:16px;
+  --font-display:'Manrope',sans-serif;
+  --font-body:'Manrope',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{
+  background:var(--bg);
+  color:var(--body);
+  font-family:var(--font-body);
+  font-size:15px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--red);color:#fff}
+:focus-visible{outline:2px solid var(--red);outline-offset:3px;border-radius:2px}
+.container{width:min(1180px,92vw);margin:0 auto}
+.num{font-variant-numeric:tabular-nums}
+
+/* Signature detail: red cue mark */
+.cue{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--red);flex:0 0 auto}
+.rule{width:28px;height:3px;background:var(--red);border-radius:1px}
+
+/* ─── TOP BAR ─────────────────────────────────────── */
+.topbar{background:var(--ink);color:#c8c8c8;font-size:12px;padding:6px 0}
+.topbar .container{display:flex;justify-content:space-between;gap:16px;align-items:center}
+.topbar a{color:#fff;text-decoration:none;font-weight:500}
+.topbar a:hover{color:var(--red)}
+.topbar .cue{width:6px;height:6px;margin-right:6px;vertical-align:middle}
+@media(max-width:640px){.topbar span.hide-sm{display:none}}
+
+/* ─── NAV ─────────────────────────────────────────── */
+.nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.logo-word{font-family:var(--font-display);font-weight:600;font-size:17px;letter-spacing:0;color:var(--ink)}
+.logo-sub{display:block;font-size:10px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.nav-links{display:flex;gap:24px;list-style:none}
+.nav-links a{color:var(--body);text-decoration:none;font-size:14px;font-weight:500;transition:color .15s}
+.nav-links a:hover{color:var(--ink)}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:var(--font-body);font-weight:500;font-size:14px;
+  color:#fff;background:var(--ink);border:1px solid var(--ink);
+  padding:0 20px;height:44px;border-radius:var(--radius-s);cursor:pointer;text-decoration:none;
+  transition:background .15s,border-color .15s,transform .1s;white-space:nowrap;
+}
+.btn:hover{background:#1a1a1a}
+.btn:active{transform:scale(.98)}
+.btn svg{width:16px;height:16px}
+.btn-red{background:var(--red);border-color:var(--red);color:#fff}
+.btn-red:hover{background:var(--red-deep);border-color:var(--red-deep)}
+.btn-outline{background:transparent;border-color:var(--line-strong);color:var(--ink)}
+.btn-outline:hover{background:var(--bg-2);border-color:var(--ink)}
+.btn-sm{height:38px;padding:0 16px;font-size:13px}
+.hamburger{display:none;background:none;border:none;color:var(--ink);cursor:pointer;padding:8px}
+.mobile-menu{display:none;position:fixed;top:64px;left:0;right:0;z-index:99;background:#fff;border-bottom:1px solid var(--line);padding:12px 4vw 18px;box-shadow:var(--shadow)}
+.mobile-menu.open{display:block}
+.mobile-menu a{display:block;color:var(--ink);text-decoration:none;padding:12px 0;border-bottom:1px solid var(--line);font-weight:500;font-size:15px}
+
+/* ─── SHARED ──────────────────────────────────────── */
+section{padding:104px 0}
+.section-head{max-width:640px;margin-bottom:44px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.eyebrow .rule{width:6px;height:6px;border-radius:50%;background:var(--red)}
+h1,h2,h3{color:var(--ink)}
+h2{font-family:var(--font-display);font-weight:600;font-size:clamp(28px,4vw,40px);line-height:1.08;letter-spacing:0}
+.section-sub{color:var(--body);margin-top:14px;font-size:15px;max-width:36rem;line-height:1.65}
+
+/* ─── HERO ────────────────────────────────────────── */
+.hero{background:var(--bg);padding:80px 0 64px;border-bottom:1px solid var(--line)}
+.hero-grid{display:grid;grid-template-columns:1fr;gap:40px}
+h1{font-family:var(--font-display);font-weight:600;font-size:clamp(38px,5.4vw,62px);line-height:1.02;letter-spacing:0;max-width:18ch}
+h1 .red{color:var(--red)}
+.hero-sub{margin:20px 0 28px;font-size:17px;color:var(--body);max-width:34rem;line-height:1.6}
+.hero-sub strong{color:var(--ink);font-weight:500}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:32px}
+.proof-row{display:flex;gap:0;border:1px solid var(--line);border-radius:var(--radius-m);overflow:hidden;background:#fff;box-shadow:var(--shadow);max-width:520px}
+.proof-cell{flex:1;padding:12px 16px;border-right:1px solid var(--line)}
+.proof-cell:last-child{border-right:none}
+.proof-cell .n{font-family:var(--font-display);font-weight:600;font-size:21px;color:var(--ink);letter-spacing:0}
+.proof-cell .l{font-size:11px;color:var(--muted);font-weight:500}
+
+/* Delivery journey (hero moment) */
+.filmstrip-wrap{margin-top:48px;border:1px solid var(--line);border-radius:var(--radius-l);background:#fff;padding:22px 22px 18px;box-shadow:var(--shadow)}
+.filmstrip-label{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:11px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:16px}
+.filmstrip-label .label-left{display:flex;align-items:center;gap:10px}
+.filmstrip{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.frame{
+  position:relative;background:var(--bg-2);border:1px solid var(--line);
+  border-radius:12px;padding:14px 12px;min-height:118px;
+  display:flex;flex-direction:column;gap:4px;transition:border-color .2s,box-shadow .2s;
+}
+.frame::after{content:'';position:absolute;top:14px;right:12px;width:8px;height:8px;border-radius:50%;background:var(--line-strong)}
+.frame.live{border-color:rgba(200,16,46,.35);background:#fff;box-shadow:0 0 0 1px rgba(200,16,46,.08) inset}
+.frame.live::after{background:var(--red);box-shadow:0 0 0 4px var(--red-soft)}
+.frame .f-icon{display:inline-flex;align-items:center;height:22px;margin-bottom:2px;color:var(--ink)}
+.frame .f-icon svg{width:18px;height:18px}
+.frame .f-icon.logo{height:24px}
+.frame .f-n{font-family:var(--font-display);font-weight:600;font-size:10px;color:var(--muted);letter-spacing:.05em}
+.frame .f-t{font-family:var(--font-display);font-weight:600;font-size:14px;color:var(--ink);line-height:1.25}
+.frame .f-s{font-size:11px;color:var(--muted);margin-top:auto;font-weight:500}
+.frame.live .f-t{color:var(--ink)}
+.frame.live .f-s{color:var(--red-deep)}
+.frame .cue{display:none}
+
+/* Portal mock */
+.hero-visual{position:relative}
+.portal{background:#fff;border:1px solid var(--line);border-radius:var(--radius-l);box-shadow:var(--shadow-lg);overflow:hidden}
+.portal-bar{background:var(--ink);color:#fff;padding:12px 16px;display:flex;align-items:center;justify-content:space-between}
+.portal-bar .t{font-family:var(--font-display);font-weight:600;font-size:13px;letter-spacing:.04em}
+.portal-bar .live{font-size:10px;font-weight:500;letter-spacing:.1em;color:#ffd6d6;display:flex;align-items:center;gap:6px}
+.portal-bar .live::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--red)}
+.portal-body{padding:18px}
+.portal-film{display:flex;gap:12px;align-items:center;padding-bottom:14px;border-bottom:1px solid var(--line);margin-bottom:14px}
+.poster{width:48px;height:68px;border-radius:6px;background:var(--ink);display:grid;place-items:center;color:#fff;font-family:var(--font-display);font-weight:600;font-size:13px;flex:0 0 auto}
+.portal-film .n{font-weight:600;color:var(--ink);font-size:14px}
+.portal-film .m{font-size:11px;color:var(--muted);margin-top:2px}
+.p-row{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:7px 4px;border-radius:8px}
+.p-row + .p-row{border-top:1px solid var(--bg-2)}
+.p-label{font-size:12px;color:var(--body)}
+.chip{display:inline-flex;align-items:center;gap:5px;font-size:10px;font-weight:500;letter-spacing:.03em;padding:3px 8px;border-radius:100px}
+.chip-good{background:var(--good-soft);color:var(--good)}
+.chip-ink{background:#e8e8e8;color:var(--ink)}
+.chip-red{background:var(--red-soft);color:var(--red-deep)}
+.bar-chart{margin-top:14px;background:var(--bg-2);border-radius:var(--radius-m);padding:14px}
+.bar-chart .bc-title{font-size:10px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.bc-row{display:grid;grid-template-columns:76px 1fr 44px;gap:10px;align-items:center;margin:5px 0}
+.bc-row .bc-name{font-size:11px;color:var(--body);font-weight:500}
+.bc-track{height:8px;background:#e2e2e2;border-radius:100px;overflow:hidden}
+.bc-fill{height:100%;background:var(--ink);border-radius:100px}
+.bc-fill.red{background:var(--red)}
+.bc-val{font-size:11px;color:var(--ink);font-weight:600;text-align:right}
+.float-card{position:absolute;left:-24px;bottom:30px;background:#fff;border:1px solid var(--line);border-radius:var(--radius-m);box-shadow:var(--shadow-lg);padding:12px 16px;display:flex;gap:10px;align-items:center}
+.float-icon{width:38px;height:38px;border-radius:50%;background:var(--red-soft);display:grid;place-items:center;color:var(--red-deep);flex:0 0 auto}
+.float-icon svg{width:19px;height:19px;fill:currentColor}
+.float-card .f1{font-size:11px;color:var(--muted);font-weight:500}
+.float-card .f2{font-size:13px;color:var(--ink);font-weight:600}
+
+/* ─── PLATFORM STRIP ──────────────────────────────── */
+.strip{background:#fff;border-bottom:1px solid var(--line);padding:18px 0}
+.strip-inner{display:flex;align-items:center;gap:36px;justify-content:center;flex-wrap:wrap}
+.strip-label{font-size:11px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.platform-list{display:flex;gap:32px;flex-wrap:wrap;align-items:center;justify-content:center}
+.plogo{display:flex;align-items:center;gap:7px;white-space:nowrap}
+
+/* ─── STATS BAND ───────────────────────────────────── */
+.stats{background:#fff;padding:28px 0;border-bottom:1px solid var(--line)}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.stat{background:var(--bg-2);border:1px solid var(--line);border-radius:14px;padding:18px 16px;text-align:center}
+.stat .n{font-family:var(--font-display);font-weight:600;font-size:34px;color:var(--ink);letter-spacing:0;line-height:1}
+.stat .n em{font-style:normal;color:var(--red)}
+.stat .l{font-size:12px;color:var(--muted);margin-top:6px;font-weight:500}
+
+/* ─── SERVICES ─────────────────────────────────────── */
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.service-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px;box-shadow:0 1px 2px rgba(10,10,10,.04);transition:box-shadow .2s,border-color .2s,transform .2s;display:flex;flex-direction:column}
+.service-card:hover{box-shadow:var(--shadow);border-color:#d9d9d9;transform:translateY(-2px)}
+.service-icon{width:46px;height:46px;border-radius:12px;background:var(--bg-2);border:1px solid var(--line);display:grid;place-items:center;margin-bottom:14px;color:var(--ink)}
+.service-icon svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.service-card h3{font-family:var(--font-display);font-weight:600;font-size:17px;letter-spacing:0;margin-bottom:8px;color:var(--ink)}
+.service-card p{font-size:13.5px;color:var(--body);line-height:1.65;margin-bottom:14px}
+.service-card ul{list-style:none;margin-top:auto;padding-top:14px;border-top:1px solid var(--line);display:grid;gap:8px}
+.service-card li{font-size:13px;color:var(--body);padding:0;display:flex;gap:10px;align-items:flex-start;line-height:1.5}
+.service-card li::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--red);margin-top:7px;flex:0 0 auto}
+
+/* ─── PROCESS ──────────────────────────────────────── */
+.process{background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;position:relative}
+.steps::before{content:'';position:absolute;left:24px;right:24px;top:34px;height:1px;background:var(--line-strong);z-index:0}
+.step{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;position:relative;z-index:1;box-shadow:0 1px 2px rgba(10,10,10,.04)}
+.step-num{width:34px;height:34px;border-radius:10px;background:var(--ink);color:#fff;font-family:var(--font-display);font-weight:600;font-size:14px;display:grid;place-items:center;margin-bottom:14px;border:1px solid var(--ink)}
+.step h3{font-family:var(--font-display);font-weight:600;font-size:16px;margin-bottom:8px;color:var(--ink)}
+.step p{font-size:13px;color:var(--body);line-height:1.65}
+
+/* ─── COVERAGE ─────────────────────────────────────── */
+.coverage-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.platform-tile{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;transition:box-shadow .2s,border-color .2s,transform .2s;display:flex;flex-direction:column}
+.platform-tile:hover{box-shadow:var(--shadow);border-color:#d9d9d9;transform:translateY(-2px)}
+.tile-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:12px}
+.tile-logo{min-height:30px;display:flex;align-items:center}
+.tile-mode{font-size:10px;font-weight:600;letter-spacing:.06em;color:var(--muted);background:var(--bg-2);border:1px solid var(--line);border-radius:999px;padding:4px 8px;white-space:nowrap}
+.tile-desc{font-size:12.5px;color:var(--body);line-height:1.6;margin:0}
+.coverage-note{margin-top:20px;font-size:12.5px;color:var(--muted);line-height:1.7;max-width:68ch}
+.coverage-note strong{color:var(--ink)}
+
+/* ─── PACKAGES ─────────────────────────────────────── */
+.packages-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:stretch}
+.package{background:#fff;border:1px solid var(--line);border-radius:20px;padding:26px;display:flex;flex-direction:column;box-shadow:0 1px 2px rgba(10,10,10,.04);position:relative;transition:box-shadow .2s,border-color .2s}
+.package:hover{box-shadow:var(--shadow)}
+.package.featured{border-color:rgba(200,16,46,.35);box-shadow:0 8px 30px rgba(10,10,10,.08);padding-top:34px}
+.package.featured::before{content:'';position:absolute;top:0;left:18px;right:18px;height:4px;background:var(--red);border-radius:0 0 4px 4px}
+.package-tag{position:absolute;top:12px;right:16px;background:var(--red-soft);color:var(--red-deep);font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 10px;border-radius:999px;white-space:nowrap;border:1px solid rgba(200,16,46,.18)}
+.package h3{font-family:var(--font-display);font-weight:600;font-size:18px;letter-spacing:0;color:var(--ink);margin-bottom:2px}
+.package-price{margin:14px 0 4px;display:flex;align-items:baseline;gap:8px}
+.package-price .amount{font-family:var(--font-display);font-weight:600;font-size:36px;letter-spacing:0;color:var(--ink);line-height:1}
+.package-price .per{font-size:12px;color:var(--muted);font-weight:500}
+.package-desc{font-size:13.5px;color:var(--body);margin:10px 0 16px;line-height:1.65}
+.package ul{list-style:none;margin-bottom:20px;flex:1;display:grid;gap:8px}
+.package li{font-size:13px;padding:0;color:var(--body);display:flex;gap:10px;align-items:flex-start;line-height:1.55}
+.package li svg{flex:0 0 16px;width:16px;height:16px;margin-top:2px;stroke:var(--red-deep)}
+.package li strong{color:var(--ink)}
+.package .btn{justify-content:center;height:44px}
+.package .btn-outline{background:#fff;border-color:var(--line-strong);color:var(--ink)}
+.package .btn-outline:hover{background:var(--bg-2);border-color:var(--ink)}
+.package.featured .btn-red{width:100%}
+.package.custom{background:#fcfcfc;border:1px solid var(--line);box-shadow:none}
+.package.custom .package-badge{display:inline-flex;align-self:flex-start;font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--bg-2);border:1px solid var(--line);border-radius:999px;padding:6px 10px;margin-bottom:12px}
+.package.custom .amount{font-size:34px}
+.package.custom .btn-outline{background:#fff;border-color:var(--ink)}
+
+/* ─── NETFLIX PITCH DEAL ───────────────────────────── */
+.pitch-deal{margin-top:28px;background:linear-gradient(135deg,#0a0a0a 0%,#161616 100%);border:1px solid #242424;border-radius:20px;padding:32px;display:grid;grid-template-columns:1fr 1.3fr;gap:28px;align-items:start;box-shadow:var(--shadow-lg);position:relative;overflow:hidden}
+.pitch-deal::before{content:'';position:absolute;top:0;right:0;width:320px;height:320px;background:radial-gradient(circle, rgba(200,16,46,.18) 0%, rgba(200,16,46,0) 70%);pointer-events:none}
+.pitch-main,.pitch-side{position:relative;z-index:1}
+.pitch-kicker{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#ffb3bd;margin-bottom:12px;display:inline-flex;align-items:center;gap:8px}
+.pitch-kicker .cue{width:6px;height:6px;background:#e50914}
+.pitch-deal h3{font-family:var(--font-display);font-weight:600;font-size:32px;letter-spacing:0;color:#fff;line-height:1.05}
+.pitch-price{display:flex;align-items:baseline;gap:8px;margin:14px 0 14px}
+.pitch-price .amount{font-family:var(--font-display);font-weight:600;font-size:34px;color:#fff;letter-spacing:0}
+.pitch-price .per{font-size:12px;color:#b8b8b8}
+.pitch-desc{font-size:14px;color:#d0d0d0;line-height:1.7;margin-bottom:20px;max-width:38ch}
+.pitch-deal .btn-red{box-shadow:0 8px 20px rgba(200,16,46,.25)}
+.pitch-side{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:18px}
+.pitch-list{list-style:none;margin:0;display:grid;grid-template-columns:1fr;gap:10px}
+.pitch-list li{font-size:13px;color:#e6e6e6;display:flex;gap:10px;align-items:flex-start;line-height:1.6;padding:0}
+.pitch-list li svg{flex:0 0 16px;width:16px;height:16px;margin-top:2px;stroke:#5fd38c}
+.pitch-foot{font-size:12px;color:#b8b8b8;line-height:1.7;border-top:1px solid rgba(255,255,255,.12);padding-top:14px;margin-top:14px}
+
+/* ─── TESTIMONIALS ─────────────────────────────────── */
+.testimonials{background:var(--bg-2);border-top:1px solid var(--line)}
+.quotes-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.quote{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:18px;box-shadow:0 1px 2px rgba(10,10,10,.04);position:relative}
+.quote::before{content:'';position:absolute;top:0;left:24px;right:24px;height:3px;background:linear-gradient(90deg,var(--red),rgba(200,16,46,.15));border-radius:0 0 3px 3px}
+.quote-label{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.quote p{font-size:15px;line-height:1.75;color:var(--ink);margin:0}
+.quote-author{display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:16px;border-top:1px solid var(--line)}
+.avatar{width:40px;height:40px;border-radius:50%;background:var(--bg-2);border:1px solid var(--line);color:var(--ink);display:grid;place-items:center;font-size:12px;font-weight:600}
+.quote-author .name{font-size:13px;font-weight:600;color:var(--ink)}
+.quote-author .role{font-size:12px;color:var(--muted);line-height:1.4}
+
+/* ─── FAQ ──────────────────────────────────────────── */
+.faq-wrap{max-width:860px;border-top:1px solid var(--line)}
+.faq-item{border-bottom:1px solid var(--line);background:transparent;margin:0;overflow:hidden}
+.faq-q{width:100%;background:none;border:none;color:var(--ink);text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:20px 4px;font-family:var(--font-body);font-size:16px;font-weight:600;line-height:1.4}
+.faq-q:hover{color:var(--ink)}
+.faq-q .chev{transition:transform .2s,color .2s;flex:0 0 auto;color:var(--muted)}
+.faq-item.open .chev{transform:rotate(45deg);color:var(--red)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease}
+.faq-item.open .faq-a{max-height:340px}
+.faq-a-inner{padding:0 4px 20px;font-size:14px;line-height:1.75;color:var(--body);max-width:72ch}
+
+/* ─── CTA BAND ─────────────────────────────────────── */
+.cta-band{background:#fff;padding:80px 0;border-top:1px solid var(--line)}
+.cta-card{max-width:820px;margin:0 auto;text-align:center;padding:0 8px}
+.cta-band h2{color:var(--ink);max-width:28ch;margin:0 auto;font-size:clamp(30px,4vw,42px);line-height:1.08}
+.cta-band h2 .red{color:var(--red)}
+.cta-band p{color:var(--body);margin:16px auto 28px;max-width:54ch;line-height:1.7;font-size:16px}
+.cta-actions{display:flex;flex-direction:column;align-items:center;gap:10px}
+.cta-actions .btn{min-width:260px}
+.cta-email{display:inline-block;color:var(--muted);text-decoration:none;font-size:14px;font-weight:500}
+.cta-email:hover{color:var(--ink)}
+.response-note{font-size:12px;color:var(--muted);margin-top:2px}
+
+/* ─── COOKIE BAR ───────────────────────────────────── */
+.cookie-bar{position:fixed;left:16px;right:16px;bottom:16px;z-index:1300;display:none}
+.cookie-bar.show{display:block}
+.cookie-bar-inner{max-width:980px;margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow-lg);padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:14px}
+.cookie-bar p{font-size:13px;line-height:1.6;color:var(--body);margin:0}
+.cookie-bar a{color:var(--ink);font-weight:500;text-decoration:none}
+.cookie-bar a:hover{color:var(--red)}
+.cookie-actions{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.cookie-btn{height:36px;padding:0 14px;border-radius:8px;border:1px solid var(--ink);background:var(--ink);color:#fff;font:500 13px var(--font-body);cursor:pointer}
+.cookie-btn:hover{background:#1a1a1a}
+@media(max-width:720px){.cookie-bar-inner{flex-direction:column;align-items:flex-start}.cookie-actions{width:100%}.cookie-btn{width:100%}}
+
+/* ─── NETFLIX DEAL POPUP ───────────────────────────── */
+.netflix-popup{position:fixed;inset:0;display:none;align-items:flex-end;justify-content:flex-end;padding:20px;background:rgba(10,10,10,.18);z-index:1200}
+.netflix-popup.open{display:flex}
+.netflix-popup-card{width:min(360px,100%);background:#0a0a0a;color:#fff;border:1px solid #242424;border-radius:16px;padding:18px 18px 16px;box-shadow:0 20px 50px rgba(10,10,10,.35);position:relative}
+.netflix-popup-close{position:absolute;top:8px;right:10px;background:none;border:none;color:#b8b8b8;font-size:22px;line-height:1;cursor:pointer;padding:4px}
+.netflix-popup-close:hover{color:#fff}
+.netflix-popup-kicker{font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#ffb3bd;margin-bottom:8px}
+.netflix-popup-card h3{font-family:var(--font-display);font-size:24px;line-height:1.1;margin-bottom:8px;color:#fff;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.netflix-wordmark{color:#e50914;letter-spacing:.12em;font-size:.9em}
+.netflix-popup-text{font-size:13px;line-height:1.6;color:#d0d0d0;margin-bottom:10px}
+.netflix-popup-meta{font-size:13px;color:#fff;margin-bottom:14px}
+.netflix-popup-meta strong{font-size:18px}
+.netflix-popup-actions{display:flex;align-items:center;gap:12px}
+.netflix-popup-link{color:#d0d0d0;font-size:13px;text-decoration:none}
+.netflix-popup-link:hover{color:#fff}
+@media(max-width:640px){.netflix-popup{padding:12px}.netflix-popup-card{width:100%}}
+
+/* ─── FOOTER ───────────────────────────────────────── */
+footer{background:#fff;color:var(--body);padding:56px 0 24px;border-top:1px solid var(--line)}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:40px;margin-bottom:28px}
+.footer-col h4{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);margin-bottom:12px}
+.footer-col a{display:block;color:var(--body);text-decoration:none;font-size:13px;padding:4px 0;transition:color .15s}
+.footer-col a:hover{color:var(--red)}
+.footer-col p{font-size:13px;line-height:1.7;color:var(--body)}
+.footer-logo-word{font-family:var(--font-display);font-weight:600;font-size:17px;letter-spacing:0;color:var(--ink)}
+.socials{display:flex;gap:8px;margin-top:16px}
+.socials a{width:36px;height:36px;border:1px solid var(--line);border-radius:8px;display:grid;place-items:center;color:var(--muted);transition:all .15s}
+.socials a:hover{color:var(--red);border-color:var(--red)}
+.socials svg{width:16px;height:16px;fill:currentColor}
+.footer-bottom{border-top:1px solid var(--line);padding-top:18px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12px;line-height:1.7;color:var(--muted)}
+.footer-bottom a{color:var(--body);text-decoration:none}
+.footer-bottom a:hover{color:var(--red)}
+
+/* ─── REVEAL ───────────────────────────────────────── */
+.reveal{opacity:0;transform:translateY(10px);transition:opacity .4s ease,transform .4s ease}
+.reveal.visible{opacity:1;transform:none}
+
+/* ─── RESPONSIVE ───────────────────────────────────── */
+@media (max-width:1024px){
+  .hero-grid{grid-template-columns:1fr;gap:40px}
+  .filmstrip{grid-template-columns:repeat(3,1fr)}
+  .services-grid{grid-template-columns:repeat(2,1fr)}
+  .coverage-grid{grid-template-columns:repeat(2,1fr)}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .steps::before{display:none}
+  .stats-grid{grid-template-columns:repeat(2,1fr);gap:18px}
+  .quotes-grid{grid-template-columns:1fr;max-width:600px}
+  .packages-grid{grid-template-columns:1fr;max-width:460px;margin:0 auto}
+  .footer-grid{grid-template-columns:repeat(2,1fr)}
+  .pitch-deal{grid-template-columns:1fr;gap:20px;padding:24px}
+  .pitch-list{grid-template-columns:1fr}
+}
+@media (max-width:880px){
+  .nav-links,.nav .btn{display:none}
+  .hamburger{display:block}
+  .filmstrip{grid-template-columns:repeat(2,1fr)}
+  .services-grid{grid-template-columns:1fr}
+  .coverage-grid{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+  .steps::before{display:none}
+  .footer-grid{grid-template-columns:1fr}
+  section{padding:64px 0}
+  .hero{padding:48px 0 32px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ══════════ NAV ══════════ -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="#top" aria-label="AC LLC — home">
+      <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#0a0a0a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>
+      <span><span class="logo-word">AC&nbsp;LLC</span><span class="logo-sub">Film Distribution</span></span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#platforms">Platforms</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-red btn-sm" href="#packages">Submit your film</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#services">Services</a>
+    <a href="#process">Process</a>
+    <a href="#platforms">Platforms</a>
+    <a href="#packages">Packages</a>
+    <a href="#faq">FAQ</a>
+    <a href="mailto:achdouzcompany@gmail.com">Submit your film →</a>
+  </div>
+</header>
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero" id="top">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow"><span class="rule"></span>Film &amp; series distribution</p>
+        <h1>Your film on <span class="red">Tubi</span>, Prime Video &amp; 50+ platforms.</h1>
+        <p class="hero-sub">AC LLC helps US-based filmmakers and series creators go from festival premiere to <strong>now streaming</strong>. Licensing, deliverables, metadata and royalty reporting, handled end to end — so your title reaches American audiences on the platforms they actually watch. <strong>You keep the rights.</strong></p>
+        <div class="hero-ctas">
+          <a class="btn btn-red" href="#packages">Get your film distributed
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a class="btn btn-outline" href="#process">See how it works</a>
+        </div>
+        <div class="proof-row" aria-label="Company highlights">
+          <div class="proof-cell"><div class="n num">500+</div><div class="l">Titles placed</div></div>
+          <div class="proof-cell"><div class="n num">190</div><div class="l">Territories reached</div></div>
+          <div class="proof-cell"><div class="n num">48h</div><div class="l">Review turnaround</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero moment: delivery journey -->
+    <div class="filmstrip-wrap reveal">
+      <div class="filmstrip-label"><span class="label-left"><span class="cue"></span>Example delivery journey</span><span>“Dust &amp; Neon” · Feature · 2025</span></div>
+      <div class="filmstrip">
+        <div class="frame">
+          <span class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5"/><path d="M8.21 13.89 7 23l5-3 5 3-1.21-9.12"/></svg></span>
+          <span class="f-n">STEP 01</span><span class="f-t">Festival premiere</span><span class="f-s">Sundance · 2025</span>
+        </div>
+        <div class="frame">
+          <span class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><path d="m9 15 2 2 4-4"/></svg></span>
+          <span class="f-n">STEP 02</span><span class="f-t">Deliverables &amp; QC</span><span class="f-s">QC passed</span>
+        </div>
+        <div class="frame live">
+          <span class="f-icon logo" aria-hidden="true"><span style="color:#fa382f;font-weight:700;font-size:18px;letter-spacing:-.02em;text-transform:lowercase">tubi</span></span>
+          <span class="f-n">STEP 03</span><span class="f-t">Tubi</span><span class="f-s">Live · Nov 12</span>
+        </div>
+        <div class="frame">
+          <span class="f-icon logo" aria-hidden="true"><span style="color:#00a8e1;font-weight:700;font-size:15px;letter-spacing:-.01em">prime <span style="color:#6b6b6b;font-weight:600">video</span></span></span>
+          <span class="f-n">STEP 04</span><span class="f-t">Prime Video</span><span class="f-s">Live · Oct 30</span>
+        </div>
+        <div class="frame">
+          <span class="f-icon logo" aria-hidden="true"><span style="color:#1ce783;font-weight:700;font-size:18px;letter-spacing:-.03em;text-transform:lowercase">hulu</span></span>
+          <span class="f-n">STEP 05</span><span class="f-t">Hulu</span><span class="f-s">In review</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ PLATFORM STRIP ══════════ -->
+<div class="strip">
+  <div class="container strip-inner">
+    <span class="strip-label">Where titles stream</span>
+    <div class="platform-list" id="platformList"></div>
+  </div>
+</div>
+
+<!-- ══════════ STATS BAND ══════════ -->
+<div class="stats">
+  <div class="container stats-grid">
+    <div class="stat"><div class="n"><span class="num">500</span><em>+</em></div><div class="l">Titles placed</div></div>
+    <div class="stat"><div class="n"><span class="num">50</span><em>+</em></div><div class="l">US &amp; global platforms</div></div>
+    <div class="stat"><div class="n"><span class="num">190</span></div><div class="l">Territories reached</div></div>
+    <div class="stat"><div class="n"><span class="num">48</span><em>h</em></div><div class="l">US review turnaround</div></div>
+  </div>
+</div>
+
+<!-- ══════════ SERVICES ══════════ -->
+<section id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="rule"></span>What we do</p>
+      <h2>Everything between final cut &amp; premiere</h2>
+      <p class="section-sub">From deliverables to royalties, we run the full pipeline — so you focus on the next film, not on spec sheets, QC reports and rights paperwork.</p>
+    </div>
+    <div class="services-grid" id="servicesGrid"></div>
+  </div>
+</section>
+
+<!-- ══════════ PROCESS ══════════ -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="rule"></span>The process</p>
+      <h2>From festival laurels to now streaming</h2>
+      <p class="section-sub">A four-step pipeline refined over hundreds of releases. You keep creative control — we handle the machinery.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><div class="step-num">1</div><h3>Submit your project</h3><p>Email us a screener link, synopsis and budget range. Five minutes — no forms, no fees, no obligation.</p></div>
+      <div class="step reveal"><div class="step-num">2</div><h3>Review &amp; greenlight</h3><p>We review and tell you exactly which platforms fit your film — and which don't, honestly.</p></div>
+      <div class="step reveal"><div class="step-num">3</div><h3>We prep everything</h3><p>Masters, captions, metadata, key art, rights paperwork and platform deliverables — end to end.</p></div>
+      <div class="step reveal"><div class="step-num">4</div><h3>Go live &amp; earn</h3><p>Your film premieres across platforms. Launch report on day one, royalty statements quarterly.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ PLATFORM COVERAGE ══════════ -->
+<section id="platforms">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="rule"></span>Where we place films</p>
+      <h2>50+ platforms. One signature.</h2>
+      <p class="section-sub">Direct relationships and delivery pipelines with the biggest names in streaming — plus regional and FAST platforms most distributors ignore.</p>
+    </div>
+    <div class="coverage-grid" id="coverageGrid"></div>
+    <p class="coverage-note reveal"><strong>And 40+ more US platforms:</strong> Peacock · Paramount+ · Roku Channel · Samsung TV Plus · Vizio WatchFree+ · Crackle · Google Play · Vimeo On Demand · Redbox · Xumo · LG Channels · TCL Channels · Hoopla · Kanopy (library) — plus select international outlets when you want to expand beyond the US.</p>
+  </div>
+</section>
+
+<!-- ══════════ PACKAGES ══════════ -->
+<section id="packages" style="background:var(--bg-2);border-top:1px solid var(--line)">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="rule"></span>Packages</p>
+      <h2>Transparent tiers, no surprises</h2>
+      <p class="section-sub">Every package includes platform delivery, metadata and royalty reporting. Final quote after review — runtime, deliverable complexity and rights scope all factor in.</p>
+    </div>
+    <div class="packages-grid" id="packagesGrid"></div>
+
+    <!-- Special deal -->
+    <div class="pitch-deal reveal" id="netflix-pitch" aria-label="Netflix Pitch — special deal">
+      <div class="pitch-main">
+        <p class="pitch-kicker"><span class="cue"></span>Special deal</p>
+        <h3 style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><span style="color:#e50914;font-weight:700;font-size:.95em;letter-spacing:.12em">NETFLIX</span><span>Pitch</span></h3>
+        <div class="pitch-price"><span class="amount">from $9,500</span><span class="per">/ project</span></div>
+        <p class="pitch-desc">A premium track for features and limited series with festival laurels or platform-grade cast. We build the Netflix-ready pitch, position it to their content team, and support delivery if it’s greenlit.</p>
+        <a class="btn btn-red" href="https://buy.stripe.com/aFa6oI1Gm7jW0wPctZeME2M" target="_blank" rel="noopener">Apply for Netflix Pitch
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+      <div class="pitch-side">
+        <ul class="pitch-list" id="pitchList"></ul>
+        <p class="pitch-foot">We guarantee the work, not Netflix's decision — a Netflix-spec package, direct submission, and delivery if greenlit. If Netflix passes, your AVOD-first fallback is already in motion.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ TESTIMONIALS ══════════ -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="rule"></span>Filmmaker voices</p>
+      <h2>Directors trust us with their premieres</h2>
+    </div>
+    <div class="quotes-grid" id="quotesGrid"></div>
+  </div>
+</section>
+
+<!-- ══════════ FAQ ══════════ -->
+<section id="faq">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="rule"></span>Questions</p>
+      <h2>Before you submit</h2>
+    </div>
+    <div class="faq-wrap" id="faqWrap"></div>
+  </div>
+</section>
+
+<!-- ══════════ CTA BAND ══════════ -->
+<div class="cta-band">
+  <div class="container">
+    <div class="cta-card reveal">
+      <h2>Send us the screener. <span class="red">We'll tell you where it plays.</span></h2>
+      <p>Within 48 hours you'll know exactly which platforms fit your project, what it will take to get there, and what you'll earn.</p>
+      <div class="cta-actions">
+        <a class="btn btn-red" href="mailto:achdouzcompany@gmail.com?subject=Distribution%20Inquiry&body=Hi%20AC%20LLC%2C%20here%27s%20my%20screener%20link%3A%20%0A%0ATitle%3A%20%0ARuntime%3A%20%0AGenre%3A%20%0A">Get a free distribution review
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><polyline points="22 7 12 13 2 7"/></svg>
+        </a>
+        <p class="response-note">Average response time: under 24 business hours</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a class="logo" href="#top" aria-label="AC LLC — home" style="margin-bottom:12px;color:var(--ink)">
+          <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>
+          <span><span class="logo-word">AC&nbsp;LLC</span><span class="logo-sub">Film Distribution</span></span>
+        </a>
+        <p>Independent film and series distribution for US filmmakers — getting your title onto the streaming platforms American audiences watch, from screener to now streaming.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#services">Services</a>
+        <a href="#process">How it works</a>
+        <a href="#platforms">Platform coverage</a>
+        <a href="#packages">Packages &amp; pricing</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>For filmmakers</h4>
+        <a href="#testimonials">Success stories</a>
+        <a href="mailto:achdouzcompany@gmail.com?subject=Screener%20Submission">Submit a screener</a>
+        <a href="mailto:achdouzcompany@gmail.com?subject=Library%2FSlate%20Licensing">License a library</a>
+        <a href="mailto:achdouzcompany@gmail.com?subject=Press%20Inquiry">Press &amp; media</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:achdouzcompany@gmail.com">achdouzcompany@gmail.com</a>
+        <a href="mailto:achdouzcompanyllc@gmail.com">achdouzcompanyllc@gmail.com</a>
+        <p style="margin-top:12px">AC LLC — US film &amp; series distribution<br>Los Angeles, California<br>Mon–Fri · 9:00–18:00 PT</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 AC LLC. All rights reserved. AC LLC is an independent distributor and is not affiliated with Tubi, Amazon, Hulu, Apple Inc., Google or any other platform. All trademarks belong to their respective owners.</span>
+      <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- Cookie bar -->
+<div class="cookie-bar" id="cookieBar" aria-hidden="true">
+  <div class="cookie-bar-inner" role="dialog" aria-live="polite" aria-label="Cookie notice">
+    <p>We use essential cookies to make this site work and, with your consent, analytics cookies to understand site usage. See our <a href="privacy.html">Privacy Policy</a>.</p>
+    <div class="cookie-actions">
+      <button class="cookie-btn" id="cookieAccept" type="button">Accept</button>
+    </div>
+  </div>
+</div>
+
+<!-- Netflix deal popup -->
+<div class="netflix-popup" id="netflixPopup" aria-hidden="true">
+  <div class="netflix-popup-card" role="dialog" aria-modal="true" aria-labelledby="netflixPopupTitle">
+    <button class="netflix-popup-close" id="netflixPopupClose" aria-label="Close">&times;</button>
+    <p class="netflix-popup-kicker">Special deal</p>
+    <h3 id="netflixPopupTitle"><span class="netflix-wordmark">NETFLIX</span> Pitch</h3>
+    <p class="netflix-popup-text">Get a Netflix-ready pitch package, direct submission support, and a fallback plan if Netflix passes.</p>
+    <div class="netflix-popup-meta"><strong>from $9,500</strong> / project</div>
+    <div class="netflix-popup-actions">
+      <a class="btn btn-red btn-sm" href="#netflix-pitch">Apply now</a>
+      <a class="netflix-popup-link" href="#packages">View deal</a>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ── Platform wordmarks (brand colors) ── */
+const PLATFORMS = [
+  { name:'Tubi',        wm:'tubi',        color:'#fa382f', weight:500, extra:'letter-spacing:0' },
+  { name:'Netflix',     wm:'NETFLIX',     color:'#c8102e', weight:600, extra:'letter-spacing:.18em' },
+  { name:'Prime Video', wm:'prime',       color:'#00a8e1', weight:500, suffix:'video' },
+  { name:'Hulu',        wm:'hulu',        color:'#129a5f', weight:500, extra:'letter-spacing:0' },
+  { name:'Apple TV',    wm:'Apple TV',    color:'#0a0a0a', weight:500, icon:'apple' },
+  { name:'YouTube',     wm:'YouTube',     color:'#0a0a0a', weight:500, icon:'yt' },
+  { name:'Pluto TV',    wm:'PLUTO TV',    color:'#0a0a0a', weight:600, extra:'letter-spacing:.05em' },
+  { name:'Rakuten',     wm:'Rakuten',     color:'#bf0000', weight:500, suffix:'viki' },
+];
+const platformList = document.getElementById('platformList');
+PLATFORMS.forEach(p => {
+  const el = document.createElement('span');
+  el.className = 'plogo';
+  let icon = '';
+  if (p.icon === 'apple') icon = '<svg width="15" height="15" viewBox="0 0 24 24" fill="#0a0a0a"><path d="M16.7 12.9c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.1 2.5-1.8 3.1-.5 7.7 1.2 10.2.8 1.2 1.8 2.5 3.1 2.5 1.2-.1 1.7-.8 3.2-.8s1.9.8 3.3.8 2.2-1.2 3-2.4c.9-1.4 1.3-2.7 1.3-2.8-.1 0-2.6-.9-2.6-3.4zM14.2 5.6c.7-.8 1.1-1.9 1-3-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.2-.6 2.9-1.5z"/></svg>';
+  if (p.icon === 'yt')    icon = '<svg width="19" height="14" viewBox="0 0 24 17"><path fill="#c8102e" d="M23.5 2.6a3.1 3.1 0 0 0-.22-1.3 2.9 2.9 0 0 0-1.7-1.8C20 0 12 0 12 0S4 0 2.4.5A2.9 2.9 0 0 0 .7 1.3.9 3.1 0 0 0 .5 4 33.7 33.7 0 0 0 .2 8.5a33.7 33.7 0 0 0 .3 4.4 3.1 3.1 0 0 0 .2 1.3 2.9 2.9 0 0 0 1.7 1.8C4 17 12 17 12 17s8 0 9.6-.5a2.9 2.9 0 0 0 1.7-1.8 3.1 3.1 0 0 0 .2-1.3 33.7 33.7 0 0 0 .3-4.4 33.7 33.7 0 0 0-.3-4.4z"/><path fill="#fff" d="M9.6 12V5L15.8 8.5 9.6 12z"/></svg>';
+  el.innerHTML = icon +
+    '<span style="color:' + p.color + ';font-weight:' + p.weight + ';font-size:16px;letter-spacing:0;' + (p.extra||'') + '">' + p.wm +
+    (p.suffix ? '<span style="font-weight:500;color:#6b6b6b;font-size:.82em"> ' + p.suffix + '</span>' : '') + '</span>';
+  platformList.appendChild(el);
+});
+
+/* ── Services (Lucide outline on black tiles) ── */
+const SERVICES = [
+  { title:'US streaming distribution', desc:'Placement, licensing and delivery to the SVOD, AVOD/FAST and TVOD platforms US audiences watch every day.', items:['Tubi, Prime Video, Hulu','Apple TV, YouTube, Pluto TV & more','US-first strategy with global add-ons'],
+    icon:'<path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9"/><path d="M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5"/><circle cx="12" cy="12" r="2"/><path d="M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5"/><path d="M19.1 4.9C23 8.8 23 15.1 19.1 19"/>' },
+  { title:'Deliverables & QC', desc:'Broadcast-grade technical prep and quality control that passes platform ingest the first time.', items:['ProRes, DCP and IMF masters','Closed captions (SCC/SRT)','Audio mix, loudness & QC reports'],
+    icon:'<path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><path d="m9 15 2 2 4-4"/>' },
+  { title:'Metadata & key art', desc:'The shelf appeal that turns a thumbnail into a click — written, designed and localized.', items:['Synopsis, logline, cast & crew bios','Key art, posters & thumbnails','Metadata in 20+ languages'],
+    icon:'<rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>' },
+  { title:'Festival & awards strategy', desc:'Build buzz and prestige before release — submissions, press kits and awards campaigns.', items:['Sundance, Tribeca, Cannes circuits','Press kit, EPK & media outreach','Awards campaign management'],
+    icon:'<circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>' },
+  { title:'Monetization & royalties', desc:'Statements you can actually read, and a revenue mix that maximizes lifetime earnings.', items:['AVOD / SVOD / TVOD / EST splits','Quarterly royalty statements','YouTube & FAST monetization'],
+    icon:'<line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>' },
+  { title:'Rights & licensing', desc:'Windowing, exclusivity and holdbacks structured to keep your film earning in every market.', items:['All-rights, SVOD/AVOD-first windows','Talent & music clearance review','Chain-of-title documentation'],
+    icon:'<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/>' },
+];
+const servicesGrid = document.getElementById('servicesGrid');
+SERVICES.forEach(s => {
+  const el = document.createElement('article');
+  el.className = 'service-card reveal';
+  el.innerHTML =
+    '<div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' + s.icon + '</svg></div>' +
+    '<h3>' + s.title + '</h3><p>' + s.desc + '</p>' +
+    '<ul>' + s.items.map(i => '<li>' + i + '</li>').join('') + '</ul>';
+  servicesGrid.appendChild(el);
+});
+
+/* ── Coverage tiles ── */
+const COVERAGE = [
+  { name:'Netflix',     mode:'SVOD',       dot:'#c8102e', desc:'Available via our Netflix Pitch track — a premium, pitch-reviewed path for qualifying features and series.',
+    logo:'<span style="color:#c8102e;font-weight:600;font-size:18px;letter-spacing:.18em">NETFLIX</span>' },
+  { name:'Tubi',        mode:'AVOD',       dot:'#fa382f', desc:'The largest free ad-supported library in the US. Best for genre features and cult titles.',
+    logo:'<span style="color:#fa382f;font-weight:600;font-size:22px;letter-spacing:-.02em;text-transform:lowercase">tubi</span>' },
+  { name:'Prime Video', mode:'TVOD + SVOD',dot:'#00a8e1', desc:'Rent/buy placement with Prime streaming windows. Strongest per-title transactional upside.',
+    logo:'<span style="color:#00a8e1;font-weight:600;font-size:18px;letter-spacing:-.01em">prime <span style="color:#6b6b6b;font-weight:500">video</span></span>' },
+  { name:'Hulu',        mode:'SVOD',       dot:'#129a5f', desc:'Curated US SVOD. We position titles with festival laurels or strong comps.',
+    logo:'<span style="color:#129a5f;font-weight:600;font-size:22px;letter-spacing:-.03em;text-transform:lowercase">hulu</span>' },
+  { name:'Apple TV',    mode:'TVOD',       dot:'#0a0a0a', desc:'iTunes/Apple TV storefront reaching US audiences and beyond. Premium viewers, top revenue per view.',
+    logo:'<span style="display:inline-flex;align-items:center;gap:6px;color:#0a0a0a;font-weight:600;font-size:17px"><svg width="16" height="16" viewBox="0 0 24 24" fill="#0a0a0a" aria-hidden="true"><path d="M16.7 12.9c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.1 2.5-1.8 3.1-.5 7.7 1.2 10.2.8 1.2 1.8 2.5 3.1 2.5 1.2-.1 1.7-.8 3.2-.8s1.9.8 3.3.8 2.2-1.2 3-2.4c.9-1.4 1.3-2.7 1.3-2.8-.1 0-2.6-.9-2.6-3.4zM14.2 5.6c.7-.8 1.1-1.9 1-3-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.2-.6 2.9-1.5z"/></svg>Apple TV</span>' },
+  { name:'YouTube',     mode:'AVOD + TVOD',dot:'#c8102e', desc:'Movies store plus ad-supported rentals and free full movies on licensed channels.',
+    logo:'<span style="display:inline-flex;align-items:center;gap:7px;color:#0a0a0a;font-weight:600;font-size:17px"><svg width="22" height="16" viewBox="0 0 24 17" aria-hidden="true"><path fill="#c8102e" d="M23.5 2.6a3.1 3.1 0 0 0-.22-1.3 2.9 2.9 0 0 0-1.7-1.8C20 0 12 0 12 0S4 0 2.4.5A2.9 2.9 0 0 0 .7 1.3.9 3.1 0 0 0 .5 4 33.7 33.7 0 0 0 .2 8.5a33.7 33.7 0 0 0 .3 4.4 3.1 3.1 0 0 0 .2 1.3 2.9 2.9 0 0 0 1.7 1.8C4 17 12 17 12 17s8 0 9.6-.5a2.9 2.9 0 0 0 1.7-1.8 3.1 3.1 0 0 0 .2-1.3 33.7 33.7 0 0 0 .3-4.4 33.7 33.7 0 0 0-.3-4.4z"/><path fill="#fff" d="M9.6 12V5L15.8 8.5 9.6 12z"/></svg>YouTube</span>' },
+  { name:'Pluto TV',    mode:'FAST',       dot:'#0a0a0a', desc:'24/7 linear FAST channels plus on-demand. Built for genre blocks and marathons.',
+    logo:'<span style="color:#0a0a0a;font-weight:600;font-size:16px;letter-spacing:.05em">PLUTO TV</span>' },
+  { name:'Rakuten',     mode:'TVOD + AVOD',dot:'#bf0000', desc:'Rakuten TV and Rakuten Viki — an optional add-on for reaching US diaspora audiences and expanding internationally.',
+    logo:'<span style="color:#bf0000;font-weight:600;font-size:17px">Rakuten <span style="color:#6b6b6b;font-weight:500;font-size:.85em">Viki</span></span>' },
+];
+const coverageGrid = document.getElementById('coverageGrid');
+COVERAGE.forEach(c => {
+  const el = document.createElement('div');
+  el.className = 'platform-tile reveal';
+  el.innerHTML =
+    '<div class="tile-head"><div class="tile-logo">' + c.logo + '</div><span class="tile-mode">' + c.mode + '</span></div>' +
+    '<p class="tile-desc">' + c.desc + '</p>';
+  coverageGrid.appendChild(el);
+});
+
+/* ── Packages ── */
+const CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 10"/></svg>';
+const PLUS = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>';
+const PACKAGES = [
+  { name:'Festival Pass', price:'$1,500', per:'/ title, one-time', featured:false,
+    desc:'For completed shorts and features ready for AVOD/FAST exposure and a clean festival-to-streaming path.',
+    items:['Placement on Tubi, Pluto TV, YouTube and Roku Channel','Metadata, thumbnail and key art refresh','Closed captions and QC report','Quarterly royalty statements','Launch announcement to our press list'],
+    cta:'Start with Festival Pass', style:'outline', href:'https://buy.stripe.com/aFacN65WCgUwa7p65BeME2K' },
+  { name:'Premiere', price:'$4,500', per:'/ title, one-time', featured:true, tag:'MOST POPULAR',
+    desc:'The full release engine — SVOD onboarding, premium storefronts and a real marketing push behind launch.',
+    items:['<strong>Everything in Festival Pass</strong>, plus:','Prime Video, Apple TV and Google Play / YouTube TVOD','Hulu pitch-and-review pipeline','Trailer cutdowns, EPK and press kit','Dedicated distribution manager','Day-one launch report and 90-day review'],
+    cta:'Go with Premiere', style:'red', href:'https://buy.stripe.com/14A4gAdp4gUwdjB65BeME2L' },
+  { name:'Legacy Global', price:'Custom', per:'slates & series', featured:false, custom:true,
+    desc:'For multi-title slates, series and library acquisitions — licensing, windowing and catalog monetization.',
+    items:['<strong>Everything in Premiere</strong>, plus:','Library ingest and restoration oversight','Territory-exclusive licensing negotiation','FAST channel setup and 24/7 linear programming','Annual catalog performance audit'],
+    cta:'Talk to our team', style:'outline', subject:'Package%20Inquiry%3A%20Legacy%20Global%20—%20Slate%2FSeries' },
+];
+const packagesGrid = document.getElementById('packagesGrid');
+PACKAGES.forEach(p => {
+  const el = document.createElement('div');
+  el.className = 'package' + (p.featured ? ' featured' : '') + (p.custom ? ' custom' : '') + ' reveal';
+  el.innerHTML =
+    (p.tag ? '<span class="package-tag">' + p.tag + '</span>' : '') +
+    (p.custom ? '<span class="package-badge">Custom slate</span>' : '') +
+    '<h3>' + p.name + '</h3>' +
+    '<div class="package-price"><span class="amount">' + p.price + '</span><span class="per">' + p.per + '</span></div>' +
+    '<p class="package-desc">' + p.desc + '</p>' +
+    '<ul>' + p.items.map(i => '<li>' + (i.startsWith('<strong>Everything in') ? PLUS : CHECK) + '<span>' + i + '</span></li>').join('') + '</ul>' +
+    '<a class="btn ' + (p.style === 'red' ? 'btn-red' : 'btn-outline') + '" href="' + (p.href || ('mailto:achdouzcompany@gmail.com?subject=' + p.subject)) + '"' + (p.href ? ' target="_blank" rel="noopener"' : '') + '>' + p.cta + '</a>';
+  packagesGrid.appendChild(el);
+});
+
+/* ── Netflix Pitch list ── */
+const PITCH_ITEMS = [
+  'Netflix-spec pitch package — lookbook, sizzle reel, one-sheet',
+  'Positioning session with our acquisitions team before anything ships',
+  'Direct submission to Netflix content partnerships where eligible',
+  'If greenlit: full delivery, QC, subs and metadata at Netflix spec',
+  'AVOD-first windowing plan while the pitch is in review',
+  'Fallback plan — Prime, Tubi and Apple TV live dates while you wait',
+];
+const pitchList = document.getElementById('pitchList');
+PITCH_ITEMS.forEach(i => {
+  const li = document.createElement('li');
+  li.innerHTML = CHECK + '<span>' + i + '</span>';
+  pitchList.appendChild(li);
+});
+
+/* ── Testimonials ── */
+const QUOTES = [
+  { text:'AC LLC took our microbudget feature from a single festival screening to Tubi and Prime Video in under 60 days. The metadata package alone doubled our click-through rate.', name:'Maya Rodriguez', role:'Director · “Dust & Neon” (2025)', initials:'MR' },
+  { text:'They explained exactly which platform windows would earn us the most — and why AVOD-first made sense for our release. Honest advice, flawless delivery, checks every quarter.', name:'Danielle Kone', role:'Creator & EP · “The Cartel Widow” (limited series)', initials:'DK' },
+  { text:'Eighteen territories licensed for our catalog of 11 features in one deal. Their rights team found holdback revenue we didn\'t know we were leaving on the table.', name:'Jonah Barrett', role:'Producer · Barrett Pictures Library', initials:'JB' },
+];
+const quotesGrid = document.getElementById('quotesGrid');
+QUOTES.forEach(q => {
+  const el = document.createElement('figure');
+  el.className = 'quote reveal';
+  el.innerHTML =
+    '<span class="quote-label">Filmmaker testimonial</span>' +
+    '<p>“' + q.text + '”</p>' +
+    '<figcaption class="quote-author"><span class="avatar" aria-hidden="true">' + q.initials + '</span>' +
+    '<span><span class="name">' + q.name + '</span><br><span class="role">' + q.role + '</span></span></figcaption>';
+  quotesGrid.appendChild(el);
+});
+
+/* ── FAQ accordion ── */
+const FAQS = [
+  { q:'Do you accept all genres?', a:'We specialize in independent narrative features, documentaries, limited series and genre content — horror, thriller, drama, sci-fi and elevated action. We do not distribute unlicensed or unfinished material. Every submission gets honest feedback, even if we pass.' },
+  { q:'How long until my film is live?', a:'Typical timeline: 48h review, 2–4 weeks of prep (deliverables, QC, metadata), then platform ingest of 2–8 weeks depending on the service. Tubi and Pluto TV are usually fastest; Hulu cycles can take a full quarter. You get a dated estimate after review.' },
+  { q:'Do you guarantee Netflix placement?', a:'Yes — the work, not Netflix\'s decision (and anyone who says otherwise is not being straight with you). If we greenlight your project for the Netflix Pitch track, we guarantee: a Netflix-spec pitch package (lookbook, sizzle reel, one-sheet), positioning sessions before anything is submitted, direct submission through our content partnerships channel, and full delivery at Netflix spec if the project is greenlit. Netflix alone decides what it buys — no distributor, anywhere, can promise their yes. What we promise is that your film goes to the table with the strongest package we can build, plus an AVOD-first fallback plan so the film earns while Netflix reviews.' },
+  { q:'What is the Netflix Pitch track?', a:'A premium, from-$9,500 engagement for features and limited series with festival laurels or platform-grade cast. We build the Netflix-spec pitch package, position it with their content partnerships team, and handle full delivery if greenlit. It is a pipeline, not a promise — every applicant also gets an AVOD-first fallback plan, so the film earns while Netflix reviews.' },
+  { q:'Who keeps the rights?', a:'Always you. AC LLC takes a distribution license for the agreed territories and term — never ownership of copyright. You receive a full deliverables report, platform dashboards access where available, and quarterly statements with per-title, per-platform revenue.' },
+  { q:'How do royalties work?', a:'Platforms pay us (or you, via direct agreements we set up) monthly or quarterly. We deduct the agreed distribution fee only — no hidden passes, no mystery line items. Statements itemize gross per platform, fees and your net share per title and territory.' },
+  { q:'What does a submission cost?', a:'Submitting is always free. Package pricing is on this page. If your project needs restoration or extra localization we scope it transparently before any commitment — nothing starts without your written approval.' },
+];
+const faqWrap = document.getElementById('faqWrap');
+FAQS.forEach((item, i) => {
+  const div = document.createElement('div');
+  div.className = 'faq-item' + (i === 0 ? ' open' : '');
+  div.innerHTML =
+    '<button class="faq-q" aria-expanded="' + (i === 0) + '">' + item.q +
+      '<svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>' +
+    '</button>' +
+    '<div class="faq-a"><div class="faq-a-inner">' + item.a + '</div></div>';
+  div.querySelector('.faq-q').addEventListener('click', () => {
+    const open = div.classList.toggle('open');
+    div.querySelector('.faq-q').setAttribute('aria-expanded', open);
+  });
+  faqWrap.appendChild(div);
+});
+
+/* ── Mobile menu ── */
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+hamburger.addEventListener('click', () => {
+  const open = mobileMenu.classList.toggle('open');
+  hamburger.setAttribute('aria-expanded', open);
+});
+mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileMenu.classList.remove('open')));
+
+/* ── Reveal on scroll ── */
+const revealObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -48px 0px' });
+document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+setTimeout(() => document.querySelectorAll('.reveal:not(.visible)').forEach(el => el.classList.add('visible')), 1200);
+
+/* ── Cookie bar ── */
+const cookieBar = document.getElementById('cookieBar');
+const cookieAccept = document.getElementById('cookieAccept');
+const cookieKey = 'acllc_cookie_consent';
+function getCookie(name) {
+  return document.cookie.split('; ').find(row => row.startsWith(name + '='))?.split('=')[1];
+}
+function setCookie(name, value, days) {
+  const maxAge = days * 24 * 60 * 60;
+  document.cookie = name + '=' + value + '; path=/; max-age=' + maxAge + '; SameSite=Lax';
+}
+function hasCookieConsent() {
+  return localStorage.getItem(cookieKey) === 'accepted' || getCookie(cookieKey) === 'accepted';
+}
+function showCookieBar() {
+  if (!cookieBar || hasCookieConsent()) return;
+  cookieBar.classList.add('show');
+  cookieBar.setAttribute('aria-hidden', 'false');
+}
+function acceptCookies() {
+  localStorage.setItem(cookieKey, 'accepted');
+  setCookie(cookieKey, 'accepted', 180);
+  if (cookieBar) {
+    cookieBar.classList.remove('show');
+    cookieBar.setAttribute('aria-hidden', 'true');
+  }
+}
+if (cookieAccept) cookieAccept.addEventListener('click', acceptCookies);
+showCookieBar();
+
+/* ── Netflix deal popup (show once, don't show again after close) ── */
+const netflixPopup = document.getElementById('netflixPopup');
+const netflixPopupClose = document.getElementById('netflixPopupClose');
+let netflixPopupTimer = null;
+let netflixPopupDismissed = false;
+function showNetflixPopup() {
+  if (!netflixPopup || netflixPopupDismissed) return;
+  netflixPopup.classList.add('open');
+  netflixPopup.setAttribute('aria-hidden', 'false');
+}
+function hideNetflixPopup() {
+  if (!netflixPopup) return;
+  netflixPopupDismissed = true;
+  netflixPopup.classList.remove('open');
+  netflixPopup.setAttribute('aria-hidden', 'true');
+  if (netflixPopupTimer) {
+    clearInterval(netflixPopupTimer);
+    netflixPopupTimer = null;
+  }
+}
+if (netflixPopupClose) netflixPopupClose.addEventListener('click', hideNetflixPopup);
+if (netflixPopup) {
+  netflixPopup.addEventListener('click', (e) => { if (e.target === netflixPopup) hideNetflixPopup(); });
+  netflixPopup.querySelectorAll('a').forEach(a => a.addEventListener('click', hideNetflixPopup));
+  netflixPopupTimer = setTimeout(() => {
+    showNetflixPopup();
+  }, 10000);
+}
+</script>
+</body>
+</html>
